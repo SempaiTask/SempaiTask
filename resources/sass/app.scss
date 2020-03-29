@@ -1,0 +1,81 @@
+$textColor: #636b6f;
+$backgroundColor: #fff;
+$font: 'Nunito', sans-serif;
+$align: center;
+
+body {
+    background-color: #fff;
+    color: $textColor;
+    font-family: $font;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+}
+
+.front-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: $align;
+    display: flex;
+    justify-content: $align;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: $align;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: $textColor;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.m-r-sm {
+    margin-right: 10px;
+}
+
+.href-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: $textColor;
+}
+
+.show-link:hover {
+    color: #6644aa;
+}
+
+.edit-link:hover {
+    color: #0E9A00;
+}
+
+.delete-link:hover {
+    color: #a31515;
+}
+
+.container {
+    max-width: 1500px;
+}
